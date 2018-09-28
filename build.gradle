@@ -1,0 +1,19 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+group 'net.tiilikainen'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'net.tiilikainen.tc4j.CardinalizerMain'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
