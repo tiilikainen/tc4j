@@ -1,9 +1,8 @@
 package net.tiilikainen.tc4j;
 
+import java.util.ResourceBundle;
+
 public interface Cardinalizer
 {
-    default String cardinalize( long l )
-    {
-        return null;
-    }
+    String cardinalize( long l );
 }
