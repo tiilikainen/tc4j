@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.tiilikainen.tc4j.CardinalSequenceMemberTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-10-01T02:17:15" hostname="stii-3848.local" time="0.008">
+  <properties/>
+  <testcase name="test_getMemberAsString_0" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.005"/>
+  <testcase name="test_getMemberAsString_1_withAnd" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.0"/>
+  <testcase name="test_getMemberAsString_0_withMyriad" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.0"/>
+  <testcase name="test_getMemberAsString_1000" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.0"/>
+  <testcase name="test_getMemberAsString_negative0" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.0"/>
+  <testcase name="test_getMemberAsString_negative1" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.0"/>
+  <testcase name="test_getMemberAsString_negative1_notStartingMember" classname="net.tiilikainen.tc4j.CardinalSequenceMemberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
