@@ -6,6 +6,7 @@ plugins {
 group 'net.tiilikainen'
 version '1.0-SNAPSHOT'
 
+// For run{} and jar{} configurations. Specifies main class.
 mainClassName = 'net.tiilikainen.tc4j.CardinalizerMain'
 
 sourceCompatibility = 1.8
@@ -19,5 +20,14 @@ dependencies {
 }
 
 run {
+    // Connects stdin to Gradle so that the program can be interacted with using './gradlew run'
     standardInput = System.in
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': "${project.properties.mainClassName}"
+        )
+    }
 }
