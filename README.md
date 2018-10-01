@@ -8,6 +8,7 @@ This project provides a JAR that will render a `Long` value into its cardinal eq
 * 1001: One thousand and one
 * 1111: One thousand one hundred and eleven
 * 1000001: One million and one
+* -8675309: Negative eight million six hundred and seventy five thousand three hundred and nine
 
 ## Usage
 
